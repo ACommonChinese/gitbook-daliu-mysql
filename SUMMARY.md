@@ -1,6 +1,8 @@
 # Summary
 
 * [README](README.md)
+* [忘记MySQL密码](忘记MySQL密码.md)
+* [创建表格](创建表格.md)
 * [非空约束](非空约束.md)
 * [唯一约束](唯一约束.md)
 * [主键约束](主键约束.md)
@@ -8,4 +10,13 @@
 * [CHECK约束](CHECK约束.md)
 * [导入sql脚本](导入sql脚本.md)
 * [索引](索引.md)
+* [视图](视图.md)
+* [插入数据](插入数据.md)
+* [update更新](update更新.md)
+* [delete删除](delete删除.md)
+* [select查询](select查询.md)
+* [alter](alter.md)
+* [函数](函数.md)
+* [存储过程](存储过程.md)
+* [连接查询](连接查询.md)
 
