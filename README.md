@@ -26,3 +26,46 @@ mysql> use 数据库名; // 进入指定数据库
 mysql> show tables; // 查看当前数据库下多少个表格
 mysql> desc 表名; // 查看表结构
 ```
+
+### MAC配置
+
+MAC 配置环境变量：
+
+```sh
+vim ~/.bash_profile
+
+export PATH=$PATH:/usr/local/mysql-8.0.17-macos10.14-x86_64/bin
+
+alias mysql=/usr/local/mysql-8.0.17-macos10.14-x86_64/bin/mysql
+```
+
+```
+# 让配置文件生效
+source ~/.bash_profile
+```
+
+```
+# 启动mysql
+mysql -u root -p
+da*****
+```
+
+### Mac OS zsh: command not found
+
+参见： [https://blog.csdn.net/Wjhsmart/article/details/85322226](https://blog.csdn.net/Wjhsmart/article/details/85322226)  
+
+```
+vim ~/.bash_profile
+alias mysql=/usr/local/mysql/bin/mysql
+
+source ~/.bash_profile
+```
+
+如果是zsh环境： 
+
+```
+vim ~/.bashrc
+alias mysql=/usr/local/mysql/bin/mysql
+
+source ~/.bashrc
+```
